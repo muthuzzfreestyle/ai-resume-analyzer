@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Matching Jobs - AI Resume Analyzer</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>AI Resume Analyzer</h1>
+
+        <nav>
+
+            <a href="dashboard.html">
+                Dashboard
+            </a>
+
+            <a href="upload.html">
+                Upload Resume
+            </a>
+
+            <a href="result.html">
+                Analysis
+            </a>
+
+            <a href="jobs.html">
+                Jobs
+            </a>
+
+            <a href="#" onclick="logout(); return false;">
+                Logout
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main class="hero">
+
+        <div class="upload-box">
+
+            <h2>Available Jobs</h2>
+
+            <p>
+                Find jobs that match the skills
+                detected in your resume.
+            </p>
+
+
+            <div id="jobsList">
+
+                <p>
+                    Loading available jobs...
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 AI Resume Analyzer
+        </p>
+
+    </footer>
+    <script src="js/main.js"></script>
+
+
+    <script src="js/jobs.js"></script>
+
+</body>
+
+</html>

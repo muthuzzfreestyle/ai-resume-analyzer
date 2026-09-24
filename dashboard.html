@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard - AI Resume Analyzer</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>AI Resume Analyzer</h1>
+
+        <nav>
+
+            <a href="dashboard.html">
+                Dashboard
+            </a>
+
+            <a href="upload.html">
+                Upload Resume
+            </a>
+
+            <a href="result.html">
+                Analysis
+            </a>
+
+            <a href="jobs.html">
+                Jobs
+            </a>
+
+            <a href="#" onclick="logout(); return false;">
+                Logout
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main class="hero">
+
+        <div class="upload-box">
+
+            <h2>
+                Welcome, <span id="userName">User</span>
+            </h2>
+
+            <p>
+                Here is your latest resume analysis.
+            </p>
+
+
+            <hr>
+
+
+            <h3>
+                Resume Information
+            </h3>
+
+            <p>
+                Target Role:
+                <strong id="targetRole">
+                    Not available
+                </strong>
+            </p>
+
+
+            <h3>
+                ATS Score
+            </h3>
+
+            <p id="atsScore">
+                0%
+            </p>
+
+
+            <hr>
+
+
+            <h3>
+                Score Breakdown
+            </h3>
+
+            <p>
+                Skill Score:
+                <strong id="skillScore">
+                    0%
+                </strong>
+            </p>
+
+            <p>
+                Education Score:
+                <strong id="educationScore">
+                    0%
+                </strong>
+            </p>
+
+            <p>
+                Experience Score:
+                <strong id="experienceScore">
+                    0%
+                </strong>
+            </p>
+
+            <p>
+                Formatting Score:
+                <strong id="formattingScore">
+                    0%
+                </strong>
+            </p>
+
+
+            <hr>
+
+
+            <button id="goToUpload">
+                Upload New Resume
+            </button>
+
+            <button id="goToAnalysis">
+                View Full Analysis
+            </button>
+
+            <button id="goToJobs">
+                Find Matching Jobs
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 AI Resume Analyzer
+        </p>
+
+    </footer>
+    <script src="js/main.js"></script>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+
+</html>

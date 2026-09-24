@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Job Match - AI Resume Analyzer</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>AI Resume Analyzer</h1>
+
+        <nav>
+
+            <a href="dashboard.html">
+                Dashboard
+            </a>
+
+            <a href="upload.html">
+                Upload Resume
+            </a>
+
+            <a href="result.html">
+                Analysis
+            </a>
+
+            <a href="jobs.html">
+                Jobs
+            </a>
+
+            <a href="#" onclick="logout(); return false;">
+                Logout
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main class="hero">
+
+        <div class="upload-box">
+
+            <h2>Job Match Details</h2>
+
+
+            <div id="jobInfo">
+
+                <p>
+                    Loading job information...
+                </p>
+
+            </div>
+
+
+            <hr>
+
+
+            <h3>
+                Match Score
+            </h3>
+
+            <p id="matchScore">
+                0%
+            </p>
+
+
+            <hr>
+
+
+            <h3>
+                Matched Skills
+            </h3>
+
+            <ul id="matchedSkills">
+
+                <li>
+                    Loading...
+                </li>
+
+            </ul>
+
+
+            <h3>
+                Missing Skills
+            </h3>
+
+            <ul id="missingSkills">
+
+                <li>
+                    Loading...
+                </li>
+
+            </ul>
+
+
+            <hr>
+
+
+            <button id="goBackToJobs" type="button">
+                Back to Jobs
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 AI Resume Analyzer
+        </p>
+
+    </footer>
+    <script src="js/main.js"></script>
+
+
+
+    <script src="js/job-match.js"> </script>
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Upload Resume - AI Resume Analyzer</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>AI Resume Analyzer</h1>
+
+        <nav>
+
+            <a href="dashboard.html">
+                Dashboard
+            </a>
+
+            <a href="upload.html">
+                Upload Resume
+            </a>
+
+            <a href="result.html">
+                Analysis
+            </a>
+
+            <a href="jobs.html">
+                Jobs
+            </a>
+
+            <a href="#" onclick="logout(); return false;">
+                Logout
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main class="hero">
+
+        <div class="upload-box">
+
+            <h2>Upload Your Resume</h2>
+
+            <p>
+                Upload your resume to analyze skills,
+                education, experience, ATS score and
+                job matches.
+            </p>
+
+
+            <form id="uploadForm">
+
+                <label for="resumeFile">
+                    Select Resume
+                </label>
+
+                <input
+                    type="file"
+                    id="resumeFile"
+                    accept=".pdf,.docx"
+                    required
+                >
+
+
+                <p>
+                    Supported formats: PDF, DOCX
+                </p>
+
+                <p>
+                    Maximum file size: 10 MB
+                </p>
+
+
+                <button type="submit">
+                    Upload & Analyze
+                </button>
+
+            </form>
+
+
+            <p id="uploadMessage"></p>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 AI Resume Analyzer
+        </p>
+
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/upload.js"></script>
+    
+</body>
+
+</html>
