@@ -1,0 +1,13 @@
+Flask
+Flask-CORS
+PyPDF2
+python-docx
+pandas
+numpy
+scikit-learn
+spacy
+nltk
+SQLAlchemy
+PyMySQL
+Werkzeug
+python-dotenv
